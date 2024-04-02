@@ -46,6 +46,8 @@ public class UserServiceImpl implements UserService {
             userCredentials.setEmail(registerRequest.getEmail());
             userCredentials.setPassword(encryptionService.encryptPassword(registerRequest.getPassword()));
             userCredentials.setActiveLoginCount(1);
+            // Save UserCredentials to the database
+            userCredentialsRepository.save(userCredentials);
 
             // Create UserProfile entity
             UserProfile userProfile = new UserProfile();
@@ -54,11 +56,12 @@ public class UserServiceImpl implements UserService {
             userProfile.setDob(registerRequest.getDob());
             userProfile.setWeight(registerRequest.getWeight());
             userProfile.setHeight(registerRequest.getHeight());
+            System.out.println(userCredentials.getEmail());
 
-            // Save UserCredentials to the database
-            userCredentialsRepository.save(userCredentials);
             // Save UserProfile to the database
             userProfileRepository.save(userProfile);
+//            System.out.println(userProfile.getCreationTimestamp());
+
             loginResponse.setUserProfile(userProfile);
             loginResponse.setStatus(0);
             loginResponse.setMessage("Successful registration");

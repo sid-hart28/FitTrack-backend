@@ -1,18 +1,8 @@
 package com.siddharth.FitTrack.controller;
 
-
-
-//import com.example.demo.Exception.UserAlreadyExistsException;
-//import com.example.demo.Exception.UserNotVerifiedException;
-//import com.example.demo.Model.*;
-//import com.example.demo.Service.UserService;
-//import jakarta.validation.Valid;
-
 import com.siddharth.FitTrack.DTO.LoginRequest;
 import com.siddharth.FitTrack.DTO.LoginResponse;
 import com.siddharth.FitTrack.DTO.RegisterRequest;
-import com.siddharth.FitTrack.exception.UserAlreadyExistsException;
-import com.siddharth.FitTrack.model.UserProfile;
 import com.siddharth.FitTrack.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,6 +45,7 @@ public class AuthenticationController {
             LoginResponse loginResponse = userservice.loginUser(loginRequest);
             return ResponseEntity.ok(loginResponse);
         } catch (Exception e) {
+//            throw (e);
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }

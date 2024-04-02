@@ -1,0 +1,17 @@
+com/siddharth/FitTrack/DTO/RegisterResponse.class
+com/siddharth/FitTrack/FitTrackApplication.class
+com/siddharth/FitTrack/service/UserService.class
+com/siddharth/FitTrack/model/UserProfile.class
+com/siddharth/FitTrack/repository/UserProfileRepository.class
+com/siddharth/FitTrack/controller/AuthenticationController.class
+com/siddharth/FitTrack/DTO/LoginRequest.class
+com/siddharth/FitTrack/exception/UserAlreadyExistsException.class
+com/siddharth/FitTrack/DTO/RegisterRequest.class
+com/siddharth/FitTrack/service/EncryptionService.class
+com/siddharth/FitTrack/model/UserCredentials.class
+com/siddharth/FitTrack/config/SecurityConfig.class
+com/siddharth/FitTrack/controller/UserController.class
+com/siddharth/FitTrack/service/UserServiceImpl.class
+com/siddharth/FitTrack/repository/UserCredentialsRepository.class
+com/siddharth/FitTrack/exception/UserNotVerifiedException.class
+com/siddharth/FitTrack/DTO/LoginResponse.class

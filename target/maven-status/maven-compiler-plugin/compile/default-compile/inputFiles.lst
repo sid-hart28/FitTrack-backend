@@ -1,0 +1,17 @@
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/config/SecurityConfig.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/DTO/LoginRequest.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/service/UserService.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/FitTrackApplication.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/model/UserProfile.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/repository/UserCredentialsRepository.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/service/EncryptionService.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/DTO/LoginResponse.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/repository/UserProfileRepository.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/controller/AuthenticationController.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/service/UserServiceImpl.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/DTO/RegisterResponse.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/DTO/RegisterRequest.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/controller/UserController.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/model/UserCredentials.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/exception/UserAlreadyExistsException.java
+/Users/siddharth/Desktop/project/btp/FitTrack-backend/FitTrack/src/main/java/com/siddharth/FitTrack/exception/UserNotVerifiedException.java
